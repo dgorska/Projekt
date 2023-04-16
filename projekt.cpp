@@ -45,7 +45,11 @@ int main()
                             jeśli użytkownik zechce uruchomić sprawdzanie liczby ponownie: */
 char repeat;
 do {
-
+                          
+                          /* wyświetlam użytkownikowi tytuł 
+                            zadania: */
+   
+    cout << "Sprawdźmy czy liczba jest szczęśliwa :)" << endl;
 
                             //liczba którą będziemy sprawdzać określona jako n:
 
