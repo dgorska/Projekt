@@ -67,6 +67,14 @@ do {
         cout << "liczba " << n << " JEST szczęśliwa! Woohoo! :)" << endl;
     else
         cout << "liczba " << n << " NIE JEST szczęśliwa :(" << endl;
+ 
+                            /*'do while'
+                            jeśli użytkownik zechce uruchomić sprawdzanie liczby ponownie: */
+
+        cout << "Sprawdzamy jeszcze raz? :) naciśnij T lub t jeśli TAK" << endl;
+cin >> repeat;
+
+}while (repeat=='T' || repeat == 't'); 
 
 }
-}
+
