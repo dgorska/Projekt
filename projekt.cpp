@@ -60,6 +60,13 @@ do {
     cout << "Wprowadź liczbę do sprawdzenia: " << endl;
     cin >> n; 
 
+                           /*zastosowanie if else dla wyświetlenia odpowiedniego komunikatu 
+                            przy spełnieniu warunku zdefiniowanego wcześniej jako SzczesliwyNumerek :*/
+
+    if (SzczesliwyNumerek(n))  
+        cout << "liczba " << n << " JEST szczęśliwa! Woohoo! :)" << endl;
+    else
+        cout << "liczba " << n << " NIE JEST szczęśliwa :(" << endl;
 
 }
-
+}
