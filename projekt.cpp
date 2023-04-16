@@ -60,6 +60,21 @@ do {
     cout << "Wprowadź liczbę do sprawdzenia: " << endl;
     cin >> n; 
 
+                           /*zastosowanie if else dla wyświetlenia odpowiedniego komunikatu 
+                            przy spełnieniu warunku zdefiniowanego wcześniej jako SzczesliwyNumerek :*/
+
+    if (SzczesliwyNumerek(n))  
+        cout << "liczba " << n << " JEST szczęśliwa! Woohoo! :)" << endl;
+    else
+        cout << "liczba " << n << " NIE JEST szczęśliwa :(" << endl;
+ 
+                            /*'do while'
+                            jeśli użytkownik zechce uruchomić sprawdzanie liczby ponownie: */
+
+        cout << "Sprawdzamy jeszcze raz? :) naciśnij T lub t jeśli TAK" << endl;
+cin >> repeat;
+
+}while (repeat=='T' || repeat == 't'); 
 
 }
 
